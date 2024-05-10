@@ -234,11 +234,11 @@ header {
 }
 
 .logo {
-    color: var(--dark-navy);
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: -0.444px;
+  color: var(--dark-navy);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.444px;
 }
 
 header a {
@@ -253,4 +253,52 @@ header a {
   border-radius: 6px;
   border: 1px solid var(--dark-navy);
   padding: 12px 16px;
+}
+
+/* hero styling */
+.hero-container {
+  margin-top: 56px;
+}
+
+.hero-line-container {
+  max-width: 343px;
+}
+
+.hero-curved-line {
+  width: 151.472px;
+  height: 19px;
+  margin: 0 37.53px 8.32px auto;
+  display: block;
+}
+
+.hero-title {
+  margin-bottom: 32px;
+}
+
+.hero-text p {
+  margin-bottom: 32px;
+}
+
+.hero-text a {
+  background-color: var(--dark-navy);
+  border-radius: 6px;
+  color: var(--white);
+  display: block;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  margin-bottom: 55.68px;
+  max-width: 194px;
+  padding: 15px 31px;
+  text-decoration: none;
+}
+
+.hero-image-container {
+  margin-bottom: 56px;
+}
+
+.hero-image {
+  width: 100%;
 }
