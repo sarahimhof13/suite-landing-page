@@ -385,3 +385,28 @@ header a {
   letter-spacing: 0.09px;
   margin: 40px 0;
 }
+
+footer {
+  text-align: center;
+  margin: 56px 0 80px 0;
+}
+
+footer .logo {
+  margin-bottom: 33px;
+}
+
+.footer-links-container p {
+  color: var(--Grey, #49566d);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.083px;
+  margin-bottom: 33px;
+}
+
+.social-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
