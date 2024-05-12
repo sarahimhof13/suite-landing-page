@@ -148,7 +148,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+a {
   font-family: "Epilogue", sans-serif;
 }
 
@@ -180,6 +181,14 @@ p {
 }
 
 .M-heading {
+  color: var(--white);
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.417px;
+
   @media screen and (min-width: 1024px) {
     font-size: 18px;
     font-weight: bold;
@@ -190,13 +199,26 @@ p {
 }
 
 .S-heading {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+
   @media screen and (min-width: 1024px) {
     font-size: 16px;
     font-weight: bold;
     line-height: 26px;
     letter-spacing: -2.5px;
-    text-transform: uppercase;
   }
+}
+
+.XS-heading {
+  color: var(--Cream, #f3ede7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
 }
 
 .quote {
@@ -258,7 +280,6 @@ header {
 
 header a {
   color: var(--dark-navy);
-  font-family: Epilogue;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -317,9 +338,50 @@ header a {
   width: 100%;
 }
 
+/* Stats section styling */
+
 .stats-container {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-bottom: 56px;
+  margin-bottom: 237px;
+}
+
+/* Testimonial styling */
+
+.testimonial-container {
+  text-align: center;
+  border-radius: 15px;
+  background: var(--dark-navy);
+  padding: 261px 16px 64px;
+  position: relative;
+  margin: 0 -16px;
+}
+
+.testimonial-image {
+  width: 252px;
+  height: 402px;
+  display: block;
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.testimonial-container span {
+  font-weight: 700;
+}
+
+.testimonial-image-line {
+  width: 49.268px;
+  height: 40px;
+  margin-bottom: 37px;
+}
+
+.testimonial-container p {
+  color: var(--white);
+  font-style: normal;
+  line-height: 32px;
+  letter-spacing: 0.09px;
+  margin: 40px 0;
 }
